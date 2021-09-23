@@ -38,6 +38,9 @@ if ($loggedin == false) {
     echo "Inccoret password or email";
 }
 
+$image= $_SESSION["Username"] . ".jpg"; 
+$img="./uploads/".$image;
+echo '<img src="./uploads/'.$image.'"/>';
 
 
 ?>
